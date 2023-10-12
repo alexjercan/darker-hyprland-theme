@@ -1,36 +1,35 @@
 /*******************************************************************************
- * ROFI ONELINE THEME USING THE BREAKING BAD COLOR PALETTE
- * User                     : alexjercan
- * Theme Repo               : https://github.com/alexjercan/hyprland.dotfiles
- * Breaking Bad Theme Repo  : https://github.com/i3d/vim-jimbothemes
+ * ROFI ONELINE THEME USING THE N0tch2K COLOR PALETTE
+ * User                 : alexjercan
+ * Theme Repo           : https://github.com/alexjercan/n0tch2k-hyprland-theme
  *******************************************************************************/
 
 * {
-    bad0:     #181818;
-    bad1:     #D7B650;
-    bad2:     #496519;
-    bad3:     #BCBF30;
+    col0:     #383838;
+    col1:     #a95551;
+    col2:     #666666;
+    col3:     #a98051;
 
-    bad4:     #FFD700;
-    bad5:     #348B4A;
-    bad6:     #678C61;
+    col4:     #657d3e;
+    col5:     #767676;
+    col6:     #c9c9c9;
 
-    bad7:     #6D683C;
-    bad8:     #404040;
-    bad9:     #816C00;
-    bad10:    #305636;
-    bad11:    #FFD770;
+    col7:     #d0b8a3;
+    col8:     #474747;
+    col9:     #a97775;
+    col10:    #8c8c8c;
+    col11:    #a99175;
 
-    bad12:    #4692EA;
-    bad13:    #644A7F;
-    bad14:    #81AD8E;
-    bad15:    #CEB874;
+    col12:    #98bd5e;
+    col13:    #a3a3a3;
+    col14:    #dcdcdc;
+    col15:    #d8c8bb;
 
-    cursor:             #404040;
-    background:         #161616;
-    foreground:         #F1EFF0;
-    bg-selected:        #292929;
-    fg-selected:        #404040;
+    cursor:             #a99075;
+    background:         #222222;
+    foreground:         #a0a0a0;
+    bg-selected:        #4d4d4d;
+    fg-selected:        #222222;
 
     text-color:         @foreground;
     background-color:   @background;
@@ -66,7 +65,7 @@ element-icon {
 }
 
 prompt {
-    text-color: @bad4;
+    text-color: @col4;
 }
 
 listview {
@@ -82,8 +81,8 @@ element {
 }
 
 element selected {
-    background-color: @bad4;
-    text-color: @bad0;
+    background-color: @col4;
+    text-color: @col0;
 }
 
 element-icon {

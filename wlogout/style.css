@@ -1,8 +1,8 @@
 window {
     font-family: Iosevka Term;
     font-size: 14pt;
-    color: #F1EFF0; /* text */
-    background-color: rgba(22, 22, 22, 0.5);
+    color: #a0a0a0; /* text */
+    background-color: rgba(34, 34, 34, 0.5);
 }
 
 button {
@@ -16,12 +16,12 @@ button {
 }
 
 button:hover {
-    background-color: rgba(22, 22, 22, 0.1);
+    background-color: rgba(34, 34, 34, 0.1);
 }
 
 button:focus {
-    background-color: #305636;
-    color: #F1EFF0;
+    background-color: #383838;
+    color: #a0a0a0;
 }
 
 #lock {
