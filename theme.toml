@@ -1,0 +1,16 @@
+[theme]
+name="Darker"
+description="A dark theme for hyprland"
+version = "0.1.0"
+author = "alexjercan"
+git = "github.com/alexjercan/darker-hyprland-theme"
+depends = ["waybar", "swaybg", "rofi", "dunst"]
+config = "theme.conf"
+
+[script]
+load="./load"
+cleanup="./cleanup"
+
+[kill]
+exclude_bar = []
+exclude_wallpaper = []
