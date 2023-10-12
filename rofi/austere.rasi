@@ -1,35 +1,35 @@
 /*******************************************************************************
- * ROFI ONELINE THEME USING THE N0tch2K COLOR PALETTE
+ * ROFI ONELINE THEME USING THE Austere COLOR PALETTE
  * User                 : alexjercan
  * Theme Repo           : https://github.com/alexjercan/darker-hyprland-theme
  *******************************************************************************/
 
 * {
-    col0:     #383838;
-    col1:     #a95551;
-    col2:     #666666;
-    col3:     #a98051;
+    col0:     #252525;
+    col1:     #ce5252;
+    col2:     #8c9440;
+    col3:     #f0c674;
 
-    col4:     #657d3e;
-    col5:     #767676;
-    col6:     #c9c9c9;
+    col4:     #5f819d;
+    col5:     #e3e3e3;
+    col6:     #8e8e8e;
+    col7:     #f7f7f7;
 
-    col7:     #d0b8a3;
-    col8:     #474747;
-    col9:     #a97775;
-    col10:    #8c8c8c;
-    col11:    #a99175;
+    col8:     #7c7c7c;
+    col9:     #ce5252;
+    col10:    #8c9440;
+    col11:    #f0c674;
 
-    col12:    #98bd5e;
-    col13:    #a3a3a3;
-    col14:    #dcdcdc;
-    col15:    #d8c8bb;
+    col12:    #5f819d;
+    col13:    #e3e3e3;
+    col14:    #8e8e8e;
+    col15:    #f7f7f7;
 
-    cursor:             #a99075;
-    background:         #222222;
-    foreground:         #a0a0a0;
-    bg-selected:        #4d4d4d;
-    fg-selected:        #222222;
+    cursor:             #b9b9b9;
+    background:         #101010;
+    foreground:         #f7f7f7;
+    bg-selected:        #252525;
+    fg-selected:        #7c7c7c;
 
     text-color:         @foreground;
     background-color:   @background;

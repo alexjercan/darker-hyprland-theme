@@ -16,26 +16,26 @@ grace=0
 effect-blur=7x5
 effect-vignette=0.5:0.5
 
-key-hl-color=383838
-bs-hl-color=383838
+key-hl-color=252525
+bs-hl-color=252525
 separator-color=00000000
 
-line-color=c9c9c9
-ring-color=c9c9c9
-text-color=c9c9c9
-inside-color=666666
+line-color=f7f7f7
+ring-color=f7f7f7
+text-color=f7f7f7
+inside-color=252525
 
-line-ver-color=c9c9c9
-ring-ver-color=c9c9c9
-text-ver-color=c9c9c9
-inside-ver-color=666666
+line-ver-color=f7f7f7
+ring-ver-color=f7f7f7
+text-ver-color=f7f7f7
+inside-ver-color=252525
 
-line-wrong-color=a95551
-ring-wrong-color=a95551
-text-wrong-color=a95551
-inside-wrong-color=c9c9c9
+line-wrong-color=ce5252
+ring-wrong-color=ce5252
+text-wrong-color=ce5252
+inside-wrong-color=f7f7f7
 
-line-clear-color=c9c9c9
-ring-clear-color=c9c9c9
-text-clear-color=c9c9c9
-inside-clear-color=666666
+line-clear-color=f7f7f7
+ring-clear-color=f7f7f7
+text-clear-color=f7f7f7
+inside-clear-color=252525

@@ -1,28 +1,28 @@
-@define-color color0                #383838;
-@define-color color1                #a95551;
-@define-color color2                #666666;
-@define-color color3                #a98051;
+@define-color color0                #252525;
+@define-color color1                #ce5252;
+@define-color color2                #8c9440;
+@define-color color3                #f0c674;
 
-@define-color color4                #657d3e;
-@define-color color5                #767676;
-@define-color color6                #c9c9c9;
-@define-color color7                #d0b8a3;
+@define-color color4                #5f819d;
+@define-color color5                #e3e3e3;
+@define-color color6                #8e8e8e;
+@define-color color7                #f7f7f7;
 
-@define-color color8                #474747;
-@define-color color9                #a97775;
-@define-color color10               #8c8c8c;
-@define-color color11               #a99175;
+@define-color color8                #7c7c7c;
+@define-color color9                #ce5252;
+@define-color color10               #8c9440;
+@define-color color11               #f0c674;
 
-@define-color color12               #98bd5e;
-@define-color color13               #a3a3a3;
-@define-color color14               #dcdcdc;
-@define-color color15               #d8c8bb;
+@define-color color12               #5f819d;
+@define-color color13               #e3e3e3;
+@define-color color14               #8e8e8e;
+@define-color color15               #f7f7f7;
 
-@define-color cursor                #a99075;
-@define-color background            #222222;
-@define-color foreground            #a0a0a0;
-@define-color selection_background  #4d4d4d;
-@define-color selection_foreground  #222222;
+@define-color cursor                #b9b9b9;
+@define-color background            #101010;
+@define-color foreground            #f7f7f7;
+@define-color selection_background  #252525;
+@define-color selection_foreground  #7c7c7c;
 
 * {
     border: none;
@@ -35,7 +35,7 @@
 
 window#waybar {
     background: rgba(0, 0, 0, 0);
-    color: @color14;
+    color: @foreground;
 }
 
 tooltip {
@@ -62,7 +62,7 @@ tooltip {
 #backlight,
 #pulseaudio,
 #tray {
-    background: @color8;
+    background: @color0;
     padding: 3px 10px;
     margin: 3px 0px;
 }
@@ -76,6 +76,7 @@ tooltip {
 }
 
 #workspaces button {
+    color: @foreground;
     background: @color0;
     border-radius: 10px;
 }
@@ -94,63 +95,66 @@ tooltip {
 }
 
 #window{
+    color: @foreground;
     border-radius: 10px;
     margin-left: 10px;
 }
 
 #clock {
+    color: @foreground;
     border-radius: 10px;
 }
 
 #custom-weather {
+    color: @foreground;
     border-radius: 10px;
     margin-left: 10px;
 }
 
 #custom-updates {
-    color: @color13;
+    color: @cursor;
     margin-left: 10px;
     border-radius: 10px 0px 0px 10px;
 }
 
 #custom-tasks {
-    color: @color13;
+    color: @cursor;
 }
 
 #cpu {
-    color: @color14;
+    color: @foreground;
 }
 
 #memory {
-    color: @color14;
+    color: @foreground;
 }
 
 #disk {
-    color: @color13;
+    color: @cursor;
 }
 
 #battery {
-    color: @color14;
+    color: @foreground;
 }
 
 #network {
-    color: @color14;
+    color: @foreground;
 }
 
 #bluetooth {
-    color: @color13;
+    color: @cursor;
 }
 
 #idle_inhibitor {
-    color: @color13;
+    color: @cursor;
 }
 
 #backlight {
-    color: @color14;
+    color: @foreground;
 }
 
 #pulseaudio {
-    color: @color14;
+    color: @foreground;
     border-radius: 0px 10px 10px 0px;
 }
 

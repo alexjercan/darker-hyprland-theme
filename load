@@ -17,12 +17,13 @@ hyprland-autoname-workspaces -c $THEME_DIR/hyprland-autoname-workspaces/config.t
 # INFO: this destroys your old kitty config
 mkdir -p ~/.config/kitty/themes
 cp $THEME_DIR/kitty/kitty.conf ~/.config/kitty/kitty.conf
-kitty +kitten themes --reload-in=all "N0tch2k"
+cp $THEME_DIR/kitty/Austere.conf ~/.config/kitty/themes/
+kitty +kitten themes --reload-in=all "Austere"
 
 # Set the rofi theme
 # INFO: this destroys your old rofi config
 mkdir -p ~/.config/rofi/themes
-cp $THEME_DIR/rofi/n0tch2k.rasi ~/.config/rofi/themes/
+cp $THEME_DIR/rofi/austere.rasi ~/.config/rofi/themes/
 cp $THEME_DIR/rofi/config.rasi ~/.config/rofi/config.rasi
 
 # Set the swaylock theme
