@@ -41,3 +41,7 @@ waybar -c $THEME_DIR/waybar/config.jsonc -s $THEME_DIR/waybar/style.css &
 # INFO: this destroys your old wlogout config
 unlink ~/.config/wlogout 2> /dev/null || rm -rf ~/.config/wlogout/
 cp -r $THEME_DIR/wlogout ~/.config/wlogout
+
+# Set GTK theme
+gsettings set org.gnome.desktop.interface gtk-theme "Graphite-dark"
+gsettings set org.gnome.desktop.interface icon-theme "Tela-circle-black-dark"
