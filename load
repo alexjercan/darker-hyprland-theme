@@ -31,11 +31,11 @@ unlink ~/.config/swaylock 2> /dev/null || rm -rf ~/.config/swaylock/
 cp -r $THEME_DIR/swaylock ~/.config/swaylock
 
 # Set the waybar theme
-# unlink ~/.local/bin/wttr-in.py 2> /dev/null || rm -rf ~/.local/bin/wttr-in.py
-# ln -s $THEME_DIR/waybar/wttr-in.py ~/.local/bin/wttr-in.py
-# unlink ~/.local/bin/todo-tui.py 2> /dev/null || rm -rf ~/.local/bin/todo-tui.py
-# ln -s $THEME_DIR/waybar/todo-tui.py ~/.local/bin/todo-tui.py
-# waybar -c $THEME_DIR/waybar/config.jsonc -s $THEME_DIR/waybar/style.css &
+unlink ~/.local/bin/wttr-in.py 2> /dev/null || rm -rf ~/.local/bin/wttr-in.py
+ln -s $THEME_DIR/waybar/wttr-in.py ~/.local/bin/wttr-in.py
+unlink ~/.local/bin/todo-tui.py 2> /dev/null || rm -rf ~/.local/bin/todo-tui.py
+ln -s $THEME_DIR/waybar/todo-tui.py ~/.local/bin/todo-tui.py
+waybar -c $THEME_DIR/waybar/config.jsonc -s $THEME_DIR/waybar/style.css &
 
 # Set the wlogout theme to
 # INFO: this destroys your old wlogout config
