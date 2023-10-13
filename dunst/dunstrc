@@ -200,7 +200,9 @@
     max_icon_size = 64
 
     # Paths to default icons.
-    icon_path = /usr/share/icons/Reversal-black-dark/status/16/:/usr/share/icons/Reversal-black-dark/devices/16/:/usr/share/icons/Reversal-black-dark/actions/16/:/usr/share/icons/Reversal-black-dark/animations/16/:/usr/share/icons/Reversal-black-dark/apps/scalable/:/usr/share/icons/Reversal-black-dark/categories/32/:/usr/share/icons/Reversal-black-dark/emblems/16/:/usr/share/icons/Reversal-black-dark/mimes/48/:/usr/share/icons/Reversal-black-dark/places/16
+    # icon_path = /usr/share/icons/Reversal-black-dark/status/16/:/usr/share/icons/Reversal-black-dark/devices/16/:/usr/share/icons/Reversal-black-dark/actions/16/:/usr/share/icons/Reversal-black-dark/animations/16/:/usr/share/icons/Reversal-black-dark/apps/scalable/:/usr/share/icons/Reversal-black-dark/categories/32/:/usr/share/icons/Reversal-black-dark/emblems/16/:/usr/share/icons/Reversal-black-dark/mimes/48/:/usr/share/icons/Reversal-black-dark/places/16
+    icon_theme = Tela-circle-black-dark
+    enable_recursive_icon_lookup = true
 
     ### History ###
 
