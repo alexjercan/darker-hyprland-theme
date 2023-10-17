@@ -1,1 +1,17 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
+
+#### Check for yay ####
+ISYAY=/sbin/yay
+if [ -f "$ISYAY" ]; then
+    echo -e "$COK - yay was located, moving on."
+    yay -Suy
+else
+    echo -e "$CER - Yay is required for this script, now exiting"
+    exit
+fi
+
+yay -S --noconfirm \
+    graphite-gtk-theme \
+    tela-circle-icon-theme-all
+
+echo -e "Installed Darker Theme.\n"
