@@ -54,7 +54,7 @@
     "return-type": "json"
   },
   "custom/updates": {
-    "format": " {}",
+    "format": "🡻 {}",
     "interval": 7200,
     "exec": "i=$(checkupdates); echo \"$i\" |wc -l; echo \"$i\" |column -t |tr '\n' '\r'",
     "exec-if": "exit 0",
