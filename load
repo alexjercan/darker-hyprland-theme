@@ -9,10 +9,6 @@ swaybg -m fill -i $THEME_DIR/wallpaper/pine-trees-black.jpg &
 killall dunst
 dunst -config $THEME_DIR/dunst/dunstrc &
 
-# Set up autoname
-kill -9 $(pgrep -f hyprland-autoname-workspaces)
-hyprland-autoname-workspaces -c $THEME_DIR/hyprland-autoname-workspaces/config.toml &
-
 # Set the kitty terminal theme
 # INFO: this destroys your old kitty config
 mkdir -p ~/.config/kitty/themes
