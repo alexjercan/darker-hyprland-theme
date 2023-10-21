@@ -65,7 +65,6 @@
     "format": " {}",
     "interval": 60,
     "exec": "todo-tui.py",
-    "on-click": "kitty -e todo-tui",
     "tooltip": true,
     "tooltip-format": "{}",
     "return-type": "json"
