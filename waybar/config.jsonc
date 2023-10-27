@@ -49,8 +49,8 @@
   "custom/weather": {
     "tooltip": true,
     "format": "{}",
-    "interval": 1800,
-    "exec": "wttr-in.py",
+    "interval": 3600,
+    "exec": "wttrbar",
     "return-type": "json"
   },
   "custom/updates": {
