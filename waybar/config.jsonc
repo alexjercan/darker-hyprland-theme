@@ -64,7 +64,7 @@
   "custom/tasks": {
     "format": " {}",
     "interval": 60,
-    "exec": "todo-tui.py",
+    "exec": "daily.sh",
     "tooltip": true,
     "tooltip-format": "{}",
     "return-type": "json"
