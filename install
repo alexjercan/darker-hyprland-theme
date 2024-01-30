@@ -12,6 +12,52 @@ else
     exit
 fi
 
+## Options for status bar ##
+
+ARGS=""
+read -n1 -rep 'Do you want to see the current weather? y/N' WEATHER
+if [[ $WEATHER == "Y" || $WEATHER == "y" ]]; then
+    ARGS="$ARGS --weather"
+fi
+
+read -n1 -rep 'Do you want to see the available updates? y/N' UPDATES
+if [[ $UPDATES == "Y" || $UPDATES == "y" ]]; then
+    ARGS="$ARGS --updates"
+fi
+
+read -n1 -rep 'Do you want to see the daily status (this will require manual configuration)? y/N' DAILY
+if [[ $DAILY == "Y" || $DAILY == "y" ]]; then
+    ARGS="$ARGS --daily"
+fi
+
+read -n1 -rep 'Do you want to see system info (cpu usage, ram usage, etc)? y/N' SYSINFO
+if [[ $SYSINFO == "Y" || $SYSINFO == "y" ]]; then
+    ARGS="$ARGS --sysinfo"
+fi
+
+read -n1 -rep 'Do you want to see the network status? y/N' NETWORK
+if [[ $NETWORK == "Y" || $NETWORK == "y" ]]; then
+    ARGS="$ARGS --network"
+fi
+
+read -n1 -rep 'Do you want to see the bluetooth status? y/N' BLUETOOTH
+if [[ $BLUETOOTH == "Y" || $BLUETOOTH == "y" ]]; then
+    ARGS="$ARGS --bluetooth"
+fi
+
+read -n1 -rep 'Do you want to see the battery status? y/N' BATTERY
+if [[ $BATTERY == "Y" || $BATTERY == "y" ]]; then
+    ARGS="$ARGS --battery"
+fi
+
+read -n1 -rep 'Do you want to see the volume status? y/N' VOLUME
+if [[ $VOLUME == "Y" || $VOLUME == "y" ]]; then
+    ARGS="$ARGS --volume"
+fi
+
+xargs -a <(echo "$ARGS") ./waybar/generate.py
+
+### Install all of the optional pacakges ####
 yay -S --noconfirm \
     graphite-gtk-theme \
     tela-circle-icon-theme-all
