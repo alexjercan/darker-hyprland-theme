@@ -36,5 +36,5 @@ unlink ~/.config/wlogout 2> /dev/null || rm -rf ~/.config/wlogout/
 cp -r $THEME_DIR/wlogout ~/.config/wlogout
 
 # Set GTK theme
-gsettings set org.gnome.desktop.interface gtk-theme "Graphite-dark"
+gsettings set org.gnome.desktop.interface gtk-theme "Graphite-Dark"
 gsettings set org.gnome.desktop.interface icon-theme "Tela-circle-black-dark"
