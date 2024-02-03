@@ -55,7 +55,8 @@ if [[ $VOLUME == "Y" || $VOLUME == "y" ]]; then
     ARGS="$ARGS --volume"
 fi
 
-xargs -a <(echo "$ARGS") ./waybar/generate.py
+SCRIPT_DIR=$(dirname $(readlink -f $0))
+xargs -a <(echo "$ARGS") $SCRIPT_DIR/waybar/generate.py
 
 ### Install all of the optional pacakges ####
 yay -S --noconfirm \
