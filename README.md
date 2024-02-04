@@ -17,7 +17,7 @@ For now check <https://github.com/hyprland-community/hyprtheme>
 mkdir -p ~/.config/hypr/themes
 cd ~/.config/hypr/themes
 git clone git@github.com:alexjercan/darker-hyprland-theme.git darker
-hyprtheme apply darker
+hyprtheme enable darker
 ```
 
 ## Dependencies
