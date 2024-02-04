@@ -3,6 +3,7 @@
 THEME_DIR=$1
 
 # Set the wallpaper
+killall swaybg
 swaybg -m fill -i $THEME_DIR/wallpaper/pine-trees-black.jpg &
 
 # Enabe the dunst notification daemon
@@ -28,6 +29,7 @@ unlink ~/.config/swaylock 2> /dev/null || rm -rf ~/.config/swaylock/
 cp -r $THEME_DIR/swaylock ~/.config/swaylock
 
 # Set the waybar theme
+killall waybar
 waybar -c $THEME_DIR/waybar/config.jsonc -s $THEME_DIR/waybar/style.css &
 
 # Set the wlogout theme to
